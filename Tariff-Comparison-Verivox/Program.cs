@@ -8,7 +8,7 @@ builder.Services.AddSingleton(new List<Product>
     {
         new Product { Name = "Product A", Type = 1, BaseCost = 5, AdditionalKwhCost = 0.22 },
         new Product { Name = "Product B", Type = 2, IncludedKwh = 4000, BaseCost = 800, AdditionalKwhCost = 0.30 },
-        // Add more products here if needed, implemented this way only for simplicity purposes
+        // Here we can add more products if needed, implemented this way only for simplicity purposes
     });
 builder.Services.AddScoped<TariffComparisonService>();
 
